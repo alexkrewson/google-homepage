@@ -228,6 +228,8 @@ input[type="text"]{
     font-size: small;
     text-align: -webkit-center;
     text-decoration: none;
+    position: relative;
+    top: 100px;
 }
 
 .link_text {
