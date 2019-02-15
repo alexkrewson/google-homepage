@@ -1,0 +1,172 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+  
+li {
+color: rgba(0,0,0,0.87);
+opacity: 0.95;
+float: right;
+}ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: rgba(0,0,0,0.87);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+
+.topnav-right {
+float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    clear: both;
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+
+
+
+
+input[type="text"]{ 
+    height: 90%; 
+    width: 100%;
+    display: inline-block;
+
+}
+
+.search_bar {
+    text-align: center;
+    position: relative;
+    top: 70px; 
+    width: 30%;
+    margin: auto;
+    border: 10px;
+    height: 45px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.mic {
+    width: 10%;
+    height: 100%;    
+    position: absolute;
+    right: 0px;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.button_container {
+    width: 571px;
+    height: 58px;
+    padding-top: 18px;
+    position: absolute;
+    top: 53px;
+}
+
+
+.button {
+    height: 34px;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.app_button {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y:-38px;
+    background-size: 528px 68px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    opacity: 0.95;
+    margin-top: 8px;
+}
+
+.sign_in {
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.topnav-right {
+    margin-top: 10px;
+}
