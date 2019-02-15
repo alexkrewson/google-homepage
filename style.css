@@ -1,138 +1,36 @@
+/* reset stypes */
 
 html, body {
     margin: 0;
     padding: 0;
-  }
-
-
-
-
+}
   
+
+/* navbar items */
+
 li {
-color: rgba(0,0,0,0.87);
-opacity: 0.95;
-float: right;
-}ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+    color: rgba(0,0,0,0.87);
+    opacity: 0.95;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
-float: left;
+    float: left;
 }
 
 li a {
-display: block;
-color: rgba(0,0,0,0.87);
-text-align: center;
-padding: 10px 10px;
-text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-a:hover {
-text-decoration: underline;
-}
-
-.app_button:hover {
-    color: black;
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 27%;
-    clear: both;
-    position: relative;
-    top: 40px;
-}
-
-
-
-
-
-
-
-
-input[type="text"]{ 
-    height: 90%; 
-    width: 100%;
-    display: inline-block;
-
-}
-
-.search_bar {
+    color: rgba(0,0,0,0.87);
     text-align: center;
-    position: relative;
-    top: 65px; 
-    width: 30%;
-    margin: auto;
-    border: 10px;
-    height: 45px;
-    border-color: rgba(0, 0, 0, 0);
-}
-
-.mic {
-    width: 10%;
-    height: 100%;    
-    position: absolute;
-    right: 0px;
-    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.button_container {
-    width: 571px;
-    height: 58px;
-    padding-top: 18px;
-    position: absolute;
-    top: 53px;
-}
-
-
-.button {
-    height: 34px;
-    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
-    color: #757575;
-    cursor: pointer;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 0 16px;
-    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
 .app_button {
@@ -176,23 +74,6 @@ input[type="text"]{
     border-radius: 2px;
 }
 
-
-
-
-.logo_container {
-   
-    margin-top: 160px;
-}
-
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-    position: relative;
-    top: 40px;
-}
-
 .nav_container {
     margin-top: 9px;
     font-family: arial,sans-serif;
@@ -202,8 +83,6 @@ input[type="text"]{
     top: 0px;
     width: 100%;
 }
-
-
 
 .topnav_right {
     position: absolute;
@@ -221,6 +100,95 @@ input[type="text"]{
     display: inline;
     margin: 10px;
 }
+
+
+/* Change the appearance on hover */
+
+a:hover {
+    text-decoration: underline;
+}
+
+.app_button:hover {
+    color: black;
+    opacity: 1;
+}
+
+/* Google logo */
+
+.logo_container {
+   
+    margin-top: 160px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    position: relative;
+    top: 40px;
+}
+
+/* search bar */
+
+input[type="text"]{ 
+    height: 90%; 
+    width: 100%;
+    display: inline-block;
+
+}
+
+.search_bar {
+    text-align: center;
+    position: relative;
+    top: 65px; 
+    width: 30%;
+    margin: auto;
+    border: 10px;
+    height: 45px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.mic {
+    width: 10%;
+    height: 100%;    
+    position: absolute;
+    right: 0px;
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* buttons under search bar */
+
+.button_container {
+    width: 571px;
+    height: 58px;
+    padding-top: 18px;
+    position: absolute;
+    top: 53px;
+}
+
+
+.button {
+    height: 34px;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+/* link text under buttons */
 
 .text_container {
     color: #609;
